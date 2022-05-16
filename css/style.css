@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEFEFF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    gap: 900px;
+    position: fixed;
+    top: 0;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.help {
+    font-weight: 700;
+    color: #cacaca;
+}
+
+.section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.options {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 400px;
+}
+
+.outher {
+    font-size: 18px;
+    font-weight: 400;
+    color: #111827;
+}
+
+.a-denied {
+    font-size: 16px;
+    max-width: 300px;
+}
+
+.sels {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 32px;
+    background: transparent;
+    color: #C4C6CA;
+    border: 1px solid #C4C6CA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.apple {
+    width: 20px;
+}
+
+@media (max-width: 667px) {
+    .navbar {
+        padding: 10px;
+        gap: 80px;
+    }
+
+     .help {
+         color: #111827;
+     }   
+
+    .title {
+        font-size: 52px;
+        line-height: 52px;
+        max-width: 270px;
+    }
+
+    .section {
+        padding: 0px 20px;
+    }
+}
